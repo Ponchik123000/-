@@ -1,55 +1,50 @@
+body {
+    font-family: sans-serif;
+    background-color: #0e1d5eff;
+}
+
+p {
+    font-size: 30px;
+    color: darkblue;
+}
+
 header {
-    background-color: navy;
+    background-color: white;
     padding: 10px;
 }
 
-header a {
-    color: black;
-    background-color: white;
-    font-size: 20px;
-    text-decoration: none;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 10px;
-}
-
 header img {
-    width: 200px;
-    height: 60px;
+    height: 50px;
+    width: 750px;
 }
 
 h1 {
     text-align: center;
-    font-size: 50px;
-}
-
-h2 {
-    background-color: #2adede;
-    color: blueviolet;
-    font-size: 30px;
+    color: white;
+    font-size: 60px;
 }
 
 main p {
-    font-size: 20px;
-    padding: 20px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 30px;
     margin: 20px;
-    border: 1px solid navy;
-    border-radius: 15px;
 }
 
-p img {
-    height: 150px;
-    width: 200px;
+main img {
+    height: 200px;
+    width: 700px;
 }
 
 footer {
-    background-color: #8fddf2;
-    padding: 10px;
+    padding: 30px;
 }
-
-footer p {
-    background-color: white;
-    color: black;
-    padding: 5px;
+.icons {
+    width: 50px;
+    height: 50px;
+}
+.marker {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
 }
